@@ -1,0 +1,368 @@
+
+body {
+        font-family: 'IM_Hyemin';
+        color : #5e5e5e;
+        height : 100%;
+}
+
+a {
+        text-decoration: none;
+        display : block;
+        color : inherit;
+}
+
+section {
+        width : 100vw;
+        height : 100vh;
+}
+
+.wrap {
+        box-sizing: border-box;
+        max-width : 1440px;
+        max-height : 100%;
+        margin : 0 auto;
+        padding : 3rem 0;
+}
+
+/* HOME 시작 */
+#home {
+        background-color: #f4eaf5;
+        position : relative;
+}
+#header {
+        height : 6em;
+}
+
+#nav {
+        width : 70%;
+        margin : 0 auto;
+}
+#nav::after {
+        clear: both; content: ""; display : block;
+}
+
+#nav > ul > li {
+        font-family: 'NEXON';
+        float : left;
+        width : 25%;
+}
+
+#nav > ul > li > a {
+        text-align: center;
+        line-height: 6em;
+}
+
+#nav > ul > li > a:hover {
+        transition: 0.4s;
+        transform: scaleX(1);
+        background-color: #dbb8cd;
+        color : white;
+}
+
+#home_p {
+        position: absolute;
+        top : 50%;
+        left : 50%;
+        transform: translate(-50%, -50%);
+        font-size : 1.3em;
+}
+
+#home_title > img{
+        display : block;
+        max-width : 100%;
+}
+
+#home_p > p {
+        line-height: 5em;
+        font-weight: 900;
+        text-align: center;
+}
+
+/* RESUME 시작 */
+#resume {
+        background-color: #dbb8cd;
+        position : relative;
+}
+
+.title {
+        font-family: 'NEXON';
+        font-size: 2em;
+        width : 100%;
+        text-align: center;
+        padding: 1.5em 0 ;
+        color : #40413f;
+}
+
+.info_title {
+        font-family: 'NEXON';
+        color : #7e5161;
+        font-size: 1.5em;
+        line-height: 2em;
+}
+
+.line {
+        width : 100%;
+        height : 2px;
+        background-color : #7e5161;
+        margin-bottom : 2em;
+}
+
+#illust {
+        position : absolute;
+        top : 20%;
+        left : 50%;
+        transform: translateX(-50%);
+}
+#illust > img {
+        display : block;
+        width : 100%;
+}
+#about_me {
+        position :absolute;
+        top : 20%;
+        left : 18%;
+}
+#interest {
+        position : absolute;
+        top : 60%;
+        left : 18%;
+}
+
+#license {
+        position : absolute;
+        top : 65%;
+        left : 50%;
+        transform: translateX(-50%);
+}
+
+#edu {
+        position : absolute;
+        top : 20%;
+        right : 15%;
+}
+
+#skill {
+        position : absolute;
+        top : 55%;
+        right : 13%;
+}
+
+.list1 {
+        float : left;
+        font-family: 'IM_Hyemin-Bold';
+        color : #7e5161;
+        line-height: 2.2em;
+        margin-right: 2em;
+}
+
+.list2 {
+        float : left;
+        color : white;
+        line-height: 2.2em;
+}
+
+#icon_list  > li > img {
+        display : block;
+        padding-right : 4em;
+        margin-bottom: 2em;
+}
+
+#icon_text > li {
+        line-height: 3.5em;
+        padding-right : 2em;
+}
+
+.chart {
+        width : 230px;
+        height : 8px;
+        background-color: #ead4e1;
+        margin-bottom: 1.7em;
+}
+
+.chart:first-child {
+        margin-top: 0.7em;
+}
+
+.fill1 {
+        width : 80%;
+        height: 100%;
+        background-color: white;
+}
+
+.fill2 {
+        width : 70%;
+        height : 100%;
+        background-color: white;
+}
+
+.fill3 {
+        width : 65%;
+        height : 100%;
+        background-color: white;
+
+}
+
+/* Portfolio 시작 */
+#portfolio {
+        height : 100%;
+        background-color: #f4eaf5;
+}
+
+.port_title {
+        font-size : 1.5em;
+        font-family: 'NEXON';
+        margin : 2em 1em;
+}
+
+.port_box {
+        width : 100%;
+        margin : 5em 0;
+}
+
+.port_box::after{ display: block; clear: both; content: "";}
+
+.first {
+        margin-top : 0;
+}
+.img_box_left{
+        width : 50%;
+        float : left;
+}
+
+.img_box_right {
+        float : right;
+        width : 50%;
+}
+
+.text_box_left {
+        width : 50%;
+        float : left;
+        padding : 2em;
+        padding-right : 4em;
+        box-sizing: border-box;
+        text-align: right;
+}
+
+.text_box_right {
+        width : 50%;
+        float : right;
+        padding : 2em;
+        padding-left : 4em;
+        box-sizing: border-box;
+
+}
+.img {
+        display : block;
+        width : 100%;
+        box-sizing: border-box;
+        border: 10px solid white;
+}
+
+.port_box > div > h3 {
+        font-size : 1.3em;
+        font-family: 'IM_Hyemin-Bold';
+        margin : 2em 0;
+}
+
+.port_box > div > p {
+        margin-bottom: 2em;
+        line-height: 1.8em;
+}
+
+#portfolio > .wrap > div > div > a:hover {
+        transition : 0.4s;
+        opacity: 0.5;
+}
+/* ARTWORK 시작*/
+#banner_list {
+        width : 100%;
+        padding-bottom : 8em;
+}
+
+#banner_list::after { display : block; content: ""; clear: both;}
+
+#banner_list > li {
+        float : left;
+        width : 30%;
+        box-sizing: border-box;
+        margin : 1%;
+        border: 10px solid white;
+}
+
+#banner_list > li > img {
+        display : block;
+        width : 100%;
+}
+
+#banner_list > li > img:hover {
+        transition : 0.4s;
+        transform: scale(1.1);
+}
+/* CONTACT 시작 */
+#contact {
+        width : 100%;
+        height : 80vh;
+        background-color: #dbb8cd;
+        position : relative;
+}
+
+#con_bg {
+        position : absolute;
+        top : 50%;
+        left : 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.5;
+}
+
+#contact > div > h1 {
+        padding :1.5em 0;
+}
+
+.con {
+        text-align: center;
+}
+
+.email {
+        position : absolute;
+        top : 50%;
+        transform: translateY(-50%);
+        left : 30%;
+        z-index: 9999;
+}
+
+.phone {
+        position : absolute;
+        top : 50%;
+        transform: translateY(-50%);
+        right : 30%;
+        z-index : 9999;
+}
+        
+
+.con_title {
+        font-family: 'NEXON';
+        font-size : 1.5em;
+        line-height: 2em;
+}
+
+.con > p {
+        color : white;
+        font-size : 1.5em;
+}
+
+#thank {
+        position: absolute;
+        bottom : 10%;
+        left : 50%;
+        transform: translateX(-50%);
+        font-size: 1.5em;
+        text-align: center;
+        color: white;
+}
+
+.con_wrap {
+        max-width : 1440px;
+        margin : 0 auto;
+        padding : 3rem 0;
+}
+
